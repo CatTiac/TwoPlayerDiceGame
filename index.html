@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+        <title>Dice Game</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Click to roll</h1>
+            <div class="player1">
+                <div class="dice">
+                    <img id="die1" width="25%" alt="Die roll A">
+                    <img id="die2" width="25%" alt="Die Roll B">
+                </div>
+                <div>
+                    <h2><p id="score">Your score</p></h2>
+                    <button onclick="roll()">ROLL</button>
+                </div>
+                <div class="player2">
+                    <img id="die3" width="25%" alt="Die roll A">
+                    <img id="die4" width="25%" alt="Die Roll B">
+                </div>
+                <div>
+                    <h2><p id="score">Your score</p></h2>
+                    <button onclick="roll()">ROLL</button>
+                </div>
+            </div>
+        </div>
+        <script src="./app.js"></script>
+    </body>
+</html>
